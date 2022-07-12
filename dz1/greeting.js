@@ -4,8 +4,14 @@ console.log(name)
 const user = alert("Hello," + name)
 
 
-let arrOne = ['Ivan', 'Olya', 'Kot']
-console.log(arrOne)
-console.log(arrOne.length)
+let arr = ['Ivan', 'Olya']
 
-let arrTwo = ['Emil', true, false, 35]
+let arr1 = ['Emil', true, false, 35]
+
+if(arr.length < arr1.length){
+    console.log(arr1)
+} else if (arr.length > arr1.length){
+    console.log(arr)
+} else {
+    console.log('arr.length = arr1.length')
+}
