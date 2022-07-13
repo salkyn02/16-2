@@ -33,6 +33,85 @@ const arr = [
 //     }
 // }
 
-for(let user of arr){
-    console.log(user) // element
+// for(let user of arr){
+//     console.log(user) // element
+// }
+
+// const obj = {
+//     key1: 'b1',
+//     key2: 'b2',
+//     key3: 'b3',
+//     key4: 'b4',
+//     key5: 'b5',
+// }
+//  for (let key in obj){
+//      console.log(obj[key])
+//  }
+
+// console.log(obj.key)
+
+// let i = 0;
+//
+//  while (i < 5){
+//      console.log('hello')
+//      i++
+//  }
+
+// const users = [
+//     {
+//         username: 'jack',
+//         salary: 500
+//     },
+//     {
+//         username: 'jack',
+//         salary: 5000
+//     },
+//     {
+//         username: 'jack',
+//         salary: 10000
+//     }
+// ]
+//
+// const filteredUsers = users.filter(user => user.salary > 500)
+//
+// console.log(filteredUsers)
+
+// for (let user of users){
+//     if(user.salary > 500){
+//         console.log(user)
+//     }
+// }
+
+
+const a = 7
+let b = 0
+
+while(b <= a) {
+    let result = ''
+    for (let i = 0; i < b; i++){
+        result += '*'
+    }
+    console.log(result)
+    b++
+}
+
+
+
+fizzBuzz(22);
+
+function fizzBuzz(num){
+    for (let i = 1; i <= num; i++) {
+        if (i % 3 === 0 && i % 5 === 0){
+            console.log('fizzBuzz');
+        }
+        else if (i % 3 === 0) {
+            console.log('fizz')
+        }
+        else if (i % 5 === 0) {
+            console.log('Buzz')
+        }
+        else {
+            console.log(i);
+        }
+    }
 }
