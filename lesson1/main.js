@@ -17,14 +17,14 @@ let b = 45; // number
 const bool = true; // boolean
 const bool2 = false;
 
-const obj = {
-    key: 'value',
-    username: 'Sara',
-    data: {
-        first_name: "Jack",
-        last_name: "Barbaro"
-    }
-}
+// const obj = {
+//     key: 'value',
+//     username: 'Sara',
+//     data: {
+//         first_name: "Jack",
+//         last_name: "Barbaro"
+//     }
+// }
 
 // console.log(obj.data.last_name)
 
